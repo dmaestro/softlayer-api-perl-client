@@ -9,3 +9,7 @@ else
     echo "PERLBREW directory not found: $PERLBREW_PATH"
     exit 1
 fi
+
+# dependencies
+cpanm XML::Hash::LX
+cpanm SOAP::Lite
